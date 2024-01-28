@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+}
+.bg-container1 {
+  padding: 15px 20px;
+  background-color: #64748b;
+  width: 60%;
+}
+.events-heading {
+  color: aliceblue;
+}
+.bg-container2 {
+  padding: 20px;
+  background-color: aliceblue;
+  width: 40%;
+}
+.events-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

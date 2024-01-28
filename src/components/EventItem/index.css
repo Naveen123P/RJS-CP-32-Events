@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.event-image {
+  height: 200px;
+  width: 300px;
+}
+.event-name {
+  font-weight: 800;
+  font-family: 'Roboto';
+  font-size: medium;
+  color: aliceblue;
+}
+.event-location {
+  font-family: 'Roboto';
+  font-size: medium;
+  color: aliceblue;
+}
+.display-border {
+  border: 2px solid #2dd4bf;
+}
