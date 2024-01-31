@@ -56,7 +56,7 @@ const eventsList = [
 class Events extends Component {
   state = {registrationStatus: ''}
 
-  displayRegistrationStatus = regStatus => {
+  displayRegistrationStatus1 = regStatus => {
     this.setState({
       registrationStatus: regStatus,
     })
@@ -74,7 +74,7 @@ class Events extends Component {
                 <EventItem
                   event={event}
                   key={event.id}
-                  displayRegistrationStatus={this.displayRegistrationStatus}
+                  displayRegistrationStatus1={this.displayRegistrationStatus}
                 />
               ))}
             </ul>

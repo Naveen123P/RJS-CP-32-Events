@@ -25,8 +25,8 @@ const ActiveEventRegistrationDetails = props => {
     </div>
   )
 
-  const yetToRegisterStatus = () => {
-    ;<div className="display-content">
+  const yetToRegisterStatus = () => (
+    <div className="display-content">
       <img
         src="https://assets.ccbp.in/frontend/react-js/events-register-img.png"
         alt="yet to register"
@@ -41,7 +41,7 @@ const ActiveEventRegistrationDetails = props => {
         Register Here
       </button>
     </div>
-  }
+  )
 
   const registrationsClosedStatus = () => (
     <div className="display-content">

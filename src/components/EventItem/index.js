@@ -2,18 +2,12 @@
 import './index.css'
 
 const EventItem = props => {
-  const {event} = props
-  const {
-    imageUrl,
-    name,
-    location,
-    registrationStatus,
-    displayRegistrationStatus,
-  } = event
+  const {event, displayRegistrationStatus1} = props
+  const {imageUrl, name, location, registrationStatus} = event
 
   const clickOnEvent = () => {
-    displayRegistrationStatus(registrationStatus)
     console.log(registrationStatus)
+    displayRegistrationStatus1(registrationStatus)
   }
 
   return (

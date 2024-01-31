@@ -1,4 +1,7 @@
 /* Write your CSS here */
+.events {
+  list-style-type: none;
+}
 .event-image {
   height: 200px;
   width: 300px;
